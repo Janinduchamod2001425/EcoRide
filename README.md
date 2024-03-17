@@ -5,6 +5,13 @@ We use this repository to store our project files according to group member in I
 
 `User Management`
 
+1. Registration
+2. Authentication
+3. Profile Management
+4. User Administration
+5. Searching
+6. Report Generation 
+
 <p align="center">
   <img width="760" height="500" src="https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/electric-car-charging-charger-station-cityscape-background_136277-447.jpg?itok=E7HTB_2X">
 </p> 
