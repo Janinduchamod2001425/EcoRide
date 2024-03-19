@@ -1,0 +1,47 @@
+// create a new react app
+npx create-react-app client
+
+// run the app
+npm start
+
+// install the dependencies
+npm i react-router-dom axios react-hot-toast
+
+----------------------------------------------------------------
+
+// create server folder and install dependencies
+npm init -y ( automatically create package.json file)
+
+// install dependencies
+npm i express mongoose body-parser dotenv cors
+
+1. Express: 
+Used for building web applications and APIs in Node.js, 
+providing a framework for handling routes, requests, responses, and middleware.
+
+2. Mongoose: 
+Helps in modeling MongoDB data for Node.js applications, 
+providing a structured way to interact with MongoDB databases, define schemas, and perform database operations.
+
+3. body-parser: 
+Middleware for Express to parse incoming request bodies, 
+making it easy to access data sent via POST requests, forms, or other HTTP methods.
+
+4. dotenv: 
+Loads environment variables from a .env file into Node.js process.env, 
+allowing secure configuration of application settings across different environments.
+
+5. cors: Manages "Cross-Origin Resource Sharing" in Node.js applications, 
+enabling or restricting access to resources from different origins to enhance security and control access to APIs or resources.
+
+
+// install nodemon 
+npm i --save-dev nodemon
+
+// start the server
+npm start
+
+// create model, controller and routes
+
+----------------------------------------------------------------------------
+
