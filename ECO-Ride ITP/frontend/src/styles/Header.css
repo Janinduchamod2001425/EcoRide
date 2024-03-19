@@ -1,0 +1,45 @@
+.topic{
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: -8px;
+    margin-top: -7px;
+}
+
+.header{
+    height: 70px;
+}
+
+.signup{
+    border-radius: 30px;
+    margin-right: 25px;
+    height: 40px;
+    width: 120px;
+    margin-top: 6.5px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+
+.signup text{
+    margin-top: -3px;
+}
+
+.signin{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    margin-top: 6.5px;
+    background-color: #55BE15;
+}
+
+.signin text{
+    margin-top: -9px;
+}
