@@ -5,10 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node init && node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\"" 
+    "dev": "node init && concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
