@@ -8,6 +8,7 @@ module.exports = (app) => {
     router.get("/recbyid/:id",maintenance.maintainById)
     router.put("/update/:id",maintenance.update)
     router.put("/delete/:id",maintenance.DeleteMaintainFromId)
+    router.get("/allactive",maintenance.findAllActive)
 
     app.use("/api/maintenance",router)
 }

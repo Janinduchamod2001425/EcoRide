@@ -103,3 +103,16 @@ exports.DeleteMaintainFromId = (req, res) => {
 
 
 
+exports.findAllActive = (req, res) => {
+    Maintenance.find({ maintenanceStatus: true }) // Filter by maintenanceStatus being true (active)
+        .then(data => {
+            res.send(data);
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: err.message || "Some error occurred while retrieving maintenance records."
+            });
+        });
+};
+
+
