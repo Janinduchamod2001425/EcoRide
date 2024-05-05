@@ -22,6 +22,7 @@ db.mongoose
     console.log("cannot connect",err);
    })
    require("./Routes/maintenance.route")(app)
+   require("./Routes/spare.route")(app)
 
    app.get( "/" , (req , res)=>{
        res.json("Welcome to Maintenance  Management in EcoRide System")
