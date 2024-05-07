@@ -1,5 +1,5 @@
 module.exports = (mongoose)=>{
-    const dbLink = require("../Config/db.config")
+
     var schema = mongoose.Schema({
         id : Number,
         name : String,

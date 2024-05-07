@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
 
 const CreateSparePartScreen = () => {
   const [name, setName] = useState('');
@@ -12,8 +11,6 @@ const CreateSparePartScreen = () => {
   const [available, setAvailable] = useState(true); // Default availability to true
   const [errors, setErrors] = useState({});
 
-  const history = useHistory();
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newPart = { name, price, discount, stock, available };
@@ -22,7 +19,7 @@ const CreateSparePartScreen = () => {
       console.log('New part created successfully');
       alert('New part created successfully');
       // Redirect to the spare parts management screen after creation
-      history.push('/spare-parts');
+      window.location.href = '/spare-parts';
     } catch (error) {
       console.error('Error creating new part:', error);
     }

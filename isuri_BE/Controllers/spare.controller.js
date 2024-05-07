@@ -111,3 +111,27 @@ exports.findAllActive = (req, res) => {
 };
 
 
+exports.reduceStock = async (req, res) => {
+    const { id } = req.params;
+
+    try {
+        const sparePart = await Spare.findById(id);
+
+        if (!sparePart) {
+            return res.status(404).json({ message: 'Spare part not found' });
+        }
+
+        if (sparePart.stock <= 0) {
+            return res.status(400).json({ message: 'Spare part out of stock' });
+        }
+
+        sparePart.stock -= 1; // Reduce stock by one
+
+        await sparePart.save();
+
+        return res.json({ message: 'Stock reduced successfully', sparePart });
+    } catch (error) {
+        console.error('Error reducing stock:', error);
+        return res.status(500).json({ message: 'Internal server error' });
+    }
+};

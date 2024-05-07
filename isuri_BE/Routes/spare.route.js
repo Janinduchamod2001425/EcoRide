@@ -9,6 +9,7 @@ module.exports = (app) => {
     router.put("/update/:id",spare.update)
     router.put("/delete/:id",spare.DeleteMaintainFromId)
     router.get("/allactive",spare.findAllActive)
+    router.put('/reduce-stock/:id', spare.reduceStock);
 
     app.use("/api/spare",router)
 }
