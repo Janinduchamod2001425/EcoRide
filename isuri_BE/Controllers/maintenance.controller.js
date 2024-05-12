@@ -1,5 +1,6 @@
 const db = require("../Models")
 const Maintenance = db.maintenance
+const nodemailer = require("nodemailer");
 
 exports.create = (req, res) => {
     const  maintenance = new Maintenance({
@@ -116,3 +117,43 @@ exports.findAllActive = (req, res) => {
 };
 
 
+
+exports.requestMaintenancePermission = (req, res) => {
+    const { email, ownerName } = req.body;
+
+    // Check if email and ownerName are provided
+    if (!email || !ownerName) {
+        return res.status(400).send({
+            message: "Email and owner's name are required."
+        });
+    }
+
+    // Create a transporter for sending emails
+    const transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+            user: "isuriweeraman0714@gmail.com",
+            pass: "opzpiaakbrxsokqw"
+        }
+    });
+
+    // Define email content
+    const mailOptions = {
+        from: "isuriweeraman0714@gmail.com",
+        to: email,
+        subject: "Permission Request for Vehicle Maintenance",
+        text: `Hello ${ownerName},\n\nThe admin requests your permission to maintain the vehicle. Please confirm your permission by replying to this email.\n\nThank you.\nAdmin`
+    };
+
+    // Send the email
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.log(error);
+            return res.status(500).send({
+                message: "Failed to send permission request email."
+            });
+        }
+        console.log("Email sent: " + info.response);
+        res.send("Permission request email sent successfully.");
+    });
+};

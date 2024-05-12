@@ -24,6 +24,9 @@ const Header = () => {
                             <LinkContainer to='/spare-parts'>
                                 <Nav.Link>Spare Parts</Nav.Link>
                             </LinkContainer>
+                            <LinkContainer to='/request'>
+                                <Nav.Link>Request Permission</Nav.Link>
+                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

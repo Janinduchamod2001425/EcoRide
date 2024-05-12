@@ -9,6 +9,7 @@ module.exports = (app) => {
     router.put("/update/:id",maintenance.update)
     router.put("/delete/:id",maintenance.DeleteMaintainFromId)
     router.get("/allactive",maintenance.findAllActive)
+    router.post("/email",maintenance.requestMaintenancePermission)
 
     app.use("/api/maintenance",router)
 }

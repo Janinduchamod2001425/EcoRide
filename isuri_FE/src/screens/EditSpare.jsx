@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import axios from 'axios';
+import { useParams } from 'react-router-dom'; 
 
 const EditSparePartRecord = ({ match }) => {
   const [name, setName] = useState('');
@@ -10,7 +11,7 @@ const EditSparePartRecord = ({ match }) => {
   const [available, setAvailable] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const recordId = match.params.id;
+  const { id } = useParams();
 
   useEffect(() => {
     fetchRecord(); // Fetch the record data when the component mounts
@@ -18,7 +19,7 @@ const EditSparePartRecord = ({ match }) => {
 
   const fetchRecord = async () => {
     try {
-      const response = await axios.get(`http://localhost:2000/api/spare/${recordId}`);
+      const response = await axios.get(`http://localhost:2000/api/spare/${id}`);
       const data = response.data;
       setName(data.name);
       setPrice(data.price);
@@ -33,50 +34,50 @@ const EditSparePartRecord = ({ match }) => {
   const validateForm = () => {
     let isValid = true;
     setError(''); // Reset error message
-
+  
     // Validate name
-    if (name.trim() === '') {
-      setError('Name is required');
-      isValid = false;
-    }
-
-    // Validate price
-    if (isNaN(price) || price <= 0) {
-      setError('Price must be a valid number greater than 0');
-      isValid = false;
-    }
-
-    // Validate stock
-    if (isNaN(stock) || stock < 0) {
+    // if (name.trim() === '') {
+    //   setError('Name is required');
+    //   isValid = false;
+    // }
+  
+    // Validate stock if it's not an empty string
+    if (stock !== '' && (isNaN(stock) || stock < 0)) {
       setError('Stock must be a valid number greater than or equal to 0');
       isValid = false;
     }
-
-    // Validate discount
-    if (isNaN(discount) || discount < 0 || discount > 100) {
+  
+    // Validate discount if it's not an empty string
+    if (discount !== '' && (isNaN(discount) || discount < 0 || discount > 100)) {
       setError('Discount must be a valid number between 0 and 100');
       isValid = false;
     }
-
+  
     return isValid;
   };
-
+  
   const handleSave = async () => {
     if (!validateForm()) {
       return;
     }
-
+  
     setLoading(true);
     setError('');
-
+  
     try {
-      await axios.put(`http://localhost:2000/api/spare/update/${recordId}`, {
-        name,
-        price,
-        stock,
-        discount,
-        available,
-      });
+      const updatedData = { name }; // Always include name
+      if (price.trim() !== '') {
+        updatedData.price = price;
+      }
+      if (stock !== '') {
+        updatedData.stock = stock;
+      }
+      if (discount !== '') {
+        updatedData.discount = discount;
+      }
+      updatedData.available = available;
+  
+      await axios.put(`http://localhost:2000/api/spare/update/${id}`, updatedData);
       console.log('Record updated successfully');
       alert('Record updated successfully');
     } catch (error) {
@@ -86,6 +87,9 @@ const EditSparePartRecord = ({ match }) => {
       setLoading(false);
     }
   };
+  
+  
+  
 
   return (
     <Form>
