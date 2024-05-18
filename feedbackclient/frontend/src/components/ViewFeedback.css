@@ -1,0 +1,5 @@
+/* ViewFeedback.css */
+.modal-right {
+    right: 0;
+    transform: translateX(100%);
+  }  
