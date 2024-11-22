@@ -1,6 +1,8 @@
 # EcoRide 🚗⚡🍃
 Revolutionizing the E-Vehicle Renting Experience
 
+![EcoRide Demo](./assets/ecoride.png)
+
 ## Overview
 EcoRide is a comprehensive e-vehicle renting system designed to provide a seamless and user-friendly experience for individuals and businesses seeking to rent electric vehicles. The system is tailored to ensure efficient management, transparency, and sustainability, with advanced tools to manage users, vehicles, reservations, and more. Leveraging the power of modern technologies such as the MERN stack, Vite, Redux, JWT, and Firebase, EcoRide ensures scalability, high performance, and robust security.
 
