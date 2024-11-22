@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#username {
+    color: white;
+    font-family: cursive;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.labelNameRep{
+    margin-left: 60px;
+    font-size: 24px;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+.textviewRep{
+    width: 385px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 45px;
+    font-family: monospace;
+    font-size: 20px;
+    border: none;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.item {
+    font-weight: bolder;
+}
+
+.Logo {
+    width: 70px;
+    margin-top: -3px;
+    margin-left: -8px;
+}
+
+#signup {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    margin-right: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+#signin {
+    background-color: #55BE15;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+}
+
+#profile {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    margin-right: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+#logout {
+    background-color: #55BE15;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+
+.avatar1 {
+    width: 38px;
+    height: 38px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.siteName {
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    width: 1519px;
+    height: 574px;
+    background-color: #62DB67;
+    margin-top: 300px;
+    margin-left: -112px;
+    margin-bottom: -30;
+}
+
+.foot {
+    width: 1519px;
+    height: 574px;
+    margin-bottom: -50px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 13px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.footlinks {
+    width: 266px;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 600px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#footlink {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+/* Packages */
+
+.maintenanceTopic {
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.userInfo {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.tot {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+/* .form {
+    border: 2px solid #42e921;
+    padding: 1px;
+    width: 90%; 
+    height: 600px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+} */
+
+.all {
+    width: 530px;
+    height: 600px;
+    float: right;
+    border-radius: 25px;
+    margin-top: 1px;
+    margin-right: 10px;
+
+}
+
+.allImage {
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+#repairBTN{
+    width: 344px;
+    height: 56px;
+    background-color: #0DF316;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 630px;
+    margin-top: -60px;
+    border: none;
+    position: absolute;
+}
+
+#repairBTN:hover{
+    background-color: black;
+    color: lime;
+}
+
+.setRep1{
+    background-color: #D7FFBF;
+    width: 475px;
+    height: 225px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.setRep2{
+    background-color: #D7FFBF;
+    width: 475px;
+    height: 225px;
+    margin-right: 55px;
+    border-radius: 20px;
+    margin-top: -715px;
+    float: right;
+}
+
+.setRep3{
+    background-color: #D7FFBF;
+    width: 475px;
+    height: 225px;
+    margin-right: 55px;
+    border-radius: 20px;
+    margin-top: -469px;
+    float: right;
+}
+
+.loyaltyPointsRedeemerPack{
+    position: absolute;
+    width: 475px;
+    height: 195px;
+    border-radius: 20px;
+    background-color: #D7FFBF;
+    margin-left: 550px;
+    margin-top: -226px;
+    padding: 20px;
+}
+
+.instructPack{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.pointTablePack{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    background-color: #55BE15;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.redeemBTNPack{
+    padding: 5px;
+    width: 100px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 165px;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.redeemBTNPack:hover{
+    background-color: #5c9e25;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.mainStatus{
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bolder;
+    border-radius: 20px;
+}

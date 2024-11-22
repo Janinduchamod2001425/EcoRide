@@ -1,0 +1,61 @@
+.addVehicle{
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0, 0.065);
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addVehicleForm .inputGroupVehi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addVehicleForm{
+    margin-top: 20px;
+}
+
+.addVehicleForm .inputGroupVehi label{
+    margin-bottom: 2px;
+}
+
+.addVehicleForm .inputGroupVehi input{
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+.addVehicleForm .inputGroupVehi button{
+    border: 0;
+    outline: none;
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    padding: 15px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.addVehicle h3{
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+.backHomeVehi{
+    background-color: rgb(146, 167, 228);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 8px;
+    color: black;
+}
+
+.alertVehi{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}

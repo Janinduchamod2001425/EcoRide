@@ -1,0 +1,97 @@
+.incidentRegister {
+  border-radius: 2%;
+  background-color: white;
+  box-shadow: 1px 1px 10px 2px #e2e2e2;
+  padding: 2%;
+  float: right;
+  position: relative;
+  margin-right: -60px;
+  margin-bottom: 50px;
+  width: 85%;
+}
+
+.incidentView {
+  border-radius: 2%;
+  background-color: white;
+  box-shadow: 1px 1px 10px 2px #e2e2e2;
+  padding: 2%;
+}
+.incidentViewContainer {
+  border-radius: 2%;
+  width: 1080px;
+  float: right;
+  margin-right: -60px;
+  margin-top: 9%;
+  border-radius: 25px;
+  position: relative;
+}
+
+.dashboardBackground {
+  background-color: #d9d9d9;
+  width: 85%;
+  height: 100%;
+  float: right;
+  margin-right: -60px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  position: relative;
+}
+.dashboardButtonContainer {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  float: left;
+  margin-top: 150px;
+  margin-right: -10px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.dashboardButtonContainer:hover {
+  background-color: #d7ffbf;
+}
+
+.buttonImage {
+  width: 80px;
+  height: 80px;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.dashobordButtonText {
+  margin-top: 10px;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.adminDashboardButtonContainer {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  float: left;
+  margin-right: -10px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.adminDashboardButtonContainer:hover {
+  background-color: #d7ffbf;
+}
+
+.adminButtonImage {
+  width: 80px;
+  height: 80px;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.adminDashobordButtonText {
+  /* margin-top: 170px; */
+  margin-left: 70px;
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.footer{
+  margin-top: -400px;
+}

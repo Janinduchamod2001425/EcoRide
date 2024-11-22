@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#username {
+    color: white;
+    font-family: cursive;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.item {
+    font-weight: bolder;
+}
+
+.Logo {
+    width: 70px;
+    margin-top: -3px;
+    margin-left: -8px;
+}
+
+#signup {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    margin-right: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+#signin {
+    background-color: #55BE15;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+}
+
+#profile {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    margin-right: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+#logout {
+    background-color: #55BE15;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    width: 120px;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+
+.avatar1 {
+    width: 38px;
+    height: 38px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.siteName {
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    width: 1519px;
+    height: 574px;
+    background-color: #62DB67;
+    margin-top: 50px;
+    margin-left: -112px;
+    margin-bottom: -30;
+}
+
+.foot {
+    width: 1519px;
+    height: 574px;
+    margin-bottom: -50px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 13px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.footlinks {
+    width: 266px;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 600px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#footlink {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+/* License */
+
+.bookingTopic {
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.licenseForm {
+    width: 999px;
+    height: 650px;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: absolute;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.labelNameBook {
+    margin-left: 90px;
+    font-size: 24px;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+.textviewBook {
+    width: 340px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 75px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.labelNameBook1 {
+    margin-left: 600px;
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    margin-top: -500px;
+}
+
+.textviewBook1 {
+    width: 340px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 585px;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -454px;
+}
+
+.labelNameBook2 {
+    margin-left: 600px;
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    margin-top: -395px;
+}
+
+.textviewBook2 {
+    width: 340px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 585px;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -353px;
+}
+
+.labelName10 {
+    margin-left: 600px;
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    margin-top: -297px;
+}
+
+.textview10 {
+    width: 340px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 585px;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -253px;
+}
+
+.labelName2 {
+    margin-left: 600px;
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    margin-top: -194px;
+}
+
+.textview2 {
+    width: 340px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 585px;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -150px;
+}
+
+.labelName3 {
+    margin-left: 600px;
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    margin-top: -57px;
+}
+
+.checkbox1 {
+    margin-left: 632px;
+    width: 195px;
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 3px; 
+    font-size: 20px;
+}
+
+.checkbox2 {
+    margin-left: 632px;
+    width: 195px;
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+.checkbox3 {
+    margin-left: 632px;
+    margin-bottom: 5px;
+    width: 195px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+.checkbox4 {
+    margin-left: 632px;
+    margin-bottom: 5px;
+    width: 195px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+.mx-2 {
+    font-size: 28px;
+    margin-top: -3px;
+}
+
+#BookingBTN {
+    width: 300px;
+    height: 56px;
+    background-color: #0DF316;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 610px;
+    margin-top: -90px;
+    border: none;
+}
+
+#BookingBTN:hover {
+    background-color: black;
+    color: lime;
+}
+
+/* License.css */
+
+/* Custom checkbox styles */
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #777;
+  border-radius: 3px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.checkbox-input:checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.checkbox-input:focus {
+  outline: none;
+}
+
+.checkbox-label-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.loyaltyPointsRedeemer{
+    position: absolute;
+    width: 310px;
+    height: 195px;
+    border-radius: 20px;
+    background-color: #D7FFBF;
+    margin-left: 600px;
+    margin-top: -285px;
+    padding: 20px;
+}
+
+.instruct{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.pointTable{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    background-color: #55BE15;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.redeemBTN{
+    padding: 5px;
+    width: 100px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 85px;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.redeemBTN:hover{
+    background-color: #5c9e25;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

@@ -1,0 +1,205 @@
+.userTable1{
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 25px;
+    margin: 50px auto;
+    padding: 50px;
+    opacity: 93%;
+}
+
+.homeButton1{
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: lime;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.addButton1{
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: lime;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.userTable1 table{
+    width: 1225px;
+    margin-top: 30px;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+.userTable1 table thead th{
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.userTable1 table tbody td{
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.actionButtons1 button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.actionButtons1 a{
+    background: green;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.alert1{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.search-bar1{
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -8px;
+}
+
+.searchBox1{
+    width: 410px;
+    height: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D7FFBF;
+    padding: 5px 5px 5px 10px;
+}
+
+.downloadButton1{
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: lime;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.headingTitle1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    margin-bottom: -10px;
+}
+
+/* .total{
+    width: 150px;
+    height: 120px;
+    background-color: #D7FFBF;
+    text-align: center;
+    padding-top: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    float: left;
+    list-style: none;
+    margin-top: 45px;
+    margin-right: 20px;
+    box-shadow: black;
+    margin-left: 15px;
+} */
+
+.total1{
+    width: 210px;
+    height: 120px;
+    background-color: #D7FFBF;
+    text-align: center;
+    padding-top: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+    list-style: none;
+    margin-top: 45px;
+    margin-right: 20px;
+    box-shadow: black;
+    margin-left: 45px;
+   
+}
+
+.subvehcile{
+    width: 210px;
+    height: 120px;
+    background-color: #059e26;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: auto;;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: black;
+    color: white;
+}
+.subRole1{
+    width: 150px;
+    height: 120px;
+    background-color: #21a675;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: auto;;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+    list-style: none;
+    margin-top:20px;
+    margin-right: 20px;
+    box-shadow: black;
+    color: white;
+}
+
+.vehcielBoxes1{
+    margin-left: 130px;
+}
+
+.rolesBoxes1{
+    margin-top: -40px;
+}
