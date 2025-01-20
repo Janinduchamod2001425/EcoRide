@@ -62,3 +62,9 @@ EcoRide is developed using modern and reliable technologies to ensure a seamless
 
 `` Firebase: For real-time database management, notifications, and analytics.``
 
+```env
+NODE_ENV=
+PORT=
+MONGO_URI=
+JWT_SECRET=
+```
